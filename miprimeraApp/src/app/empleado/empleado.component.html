@@ -3,8 +3,9 @@
 <p>Edad empleado: {{edad<18 ? "menor de edad":"mayor de edad"}} </p>
 <p>Empresa empleado: {{empresa.value}} </p>
 
-Introduce la empresa: <input type="text" #empresa>
+Introduce la empresa: <input type="text" #empresa (keyup)=0>
 <br/>
 <br/>
-<input type="button" value="ingresa" (click)="llamaEmpresa(empresa.value)"/>
 
+<!-- <input type="button" value="ingresa" (click)="llamaEmpresa(empresa.value)"/> -->
+<!-- se elimina el boton para ingreso a través del teclado -->
