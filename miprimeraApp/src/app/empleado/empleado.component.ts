@@ -9,7 +9,11 @@ export class EmpleadoComponent implements OnInit {
   nombre= "Cesar";
   apellido= "Abadia";
   edad=42;
-empresa="soluciones";
+//empresa="soluciones";
+
+llamaEmpresa(value:String){
+  
+}
 
   constructor() { }
 
